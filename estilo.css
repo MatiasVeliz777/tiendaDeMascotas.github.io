@@ -1,0 +1,504 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#principal {
+    background-color: #FFFFFF;
+}
+
+
+#header {
+
+    display: flex;
+    background-color: rgb(75, 193, 100);
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#navbar {
+
+    display: flex;
+    background-color: rgb(75, 193, 100);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    width: 25%;
+}
+#logo>img{
+    margin-right:1%;
+}
+
+#contenido {
+    display: flex;
+    margin: 2%;
+    flex-wrap: wrap;
+
+}
+
+#catalogo-prod{
+    display: flex;
+    padding: 5vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.card{
+    background-color: rgb(75, 193, 100);
+    display: flex;
+    margin: 2%;
+    justify-content: space-around;
+}
+
+#cabezera {
+    position: sticky;
+    top: 0;
+}
+
+#carrito-modal {
+    margin-right: 10px;
+    transition-duration: 0.5s;
+}
+#carrito-modal h5{
+    color: #000;
+}
+#carrito-modal:hover {
+    transition-duration: 0.5s;
+    background-color: rgba(65, 166, 87, 0.84);
+    color: #FFFFFF;  
+}
+#carrito-modal>button>a {
+    margin: 0 30px 0 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.3;
+    padding-top: 1px;
+}
+
+
+#iniciosesion-modal {
+    margin-right: 10px;
+    transition-duration: 0.5s;
+
+}
+#iniciosesion-modal:hover {
+    transition-duration: 0.5s;
+    background-color: rgba(65, 166, 87, 0.84);
+    color: #FFFFFF;
+    
+}
+#iniciosesion-modal>button>a {
+    margin: 0 30px 0 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.3;
+    padding-top: 1px;
+}
+
+#registro-modal {
+    margin-right: 10px;
+    transition-duration: 0.5s;
+
+}
+
+#registro-modal:hover {
+    transition-duration: 0.5s;
+    background-color: rgba(65, 166, 87, 0.84);
+    color: #FFFFFF;
+    
+}
+#registro-modal>button>a {
+    margin: 0 30px 0 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.3;
+    padding-top: 1px;
+
+}
+
+#boton-inicio {
+    margin-right: 10px;
+    transition-duration: 0.5s;
+
+}
+
+#boton-incio:hover {
+    transition-duration: 0.5s;
+    background-color: rgba(65, 166, 87, 0.84);
+    color: #FFFFFF;
+    
+}
+
+#boton-incio>button>a {
+    margin: 0 30px 0 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.3;
+    padding-top: 1px;
+}
+
+#boton-prod {
+    margin-right: 10px;
+    transition-duration: 0.5s;
+
+}
+#boton-prod:hover {
+    transition-duration: 0.5s;
+    background-color: rgba(65, 166, 87, 0.84);
+    color: #FFFFFF;
+    
+}
+#boton-prod>button>a {
+    margin: 0 30px 0 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.3;
+    padding-top: 1px
+}
+#boton-Suscripcion {
+    margin-right: 10px;
+    transition-duration: 0.5s;
+
+}
+#boton-Suscripcion:hover {
+    transition-duration: 0.5s;
+    background-color: rgba(65, 166, 87, 0.84);
+    color: #FFFFFF;
+    
+}
+#boton-Suscripcion>button>a {
+    margin: 0 30px 0 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.3;
+    padding-top: 1px
+}
+
+
+
+#modals {
+    display: flex;
+    justify-content: space-around;
+}
+#carrusel{
+    padding-top: 1%;
+}
+
+#carrusel h1 {
+    background-color: #00000070;
+}
+
+#carrusel p {
+    background-color: #00000070;
+}
+
+#navbar {
+    background-color: rgb(75, 169, 95);
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar>button>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.3;
+}
+
+.login {
+    width: 400px;
+    height: 340px;
+    background: rgba(65, 166, 87, 0.84);
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: white;
+}
+
+.login h5 {
+    margin: 0;
+    text-align: end;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.but {
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.login>p {
+    height: 40px;
+    margin-right: 2px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.login>a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login {
+    width: 400px;
+    height: 410px;
+    background: rgb(65, 166, 87) ;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px lightskyblue;
+    color: white;
+}
+
+.login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.xd {
+    width: 94%;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    background: a;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+
+.login p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login2 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Register {
+    width: 400px;
+    height: 340px;
+    background: rgb(65, 166, 87) ;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px 30px;
+    border-top: 2px solid #017bab;
+    color: white;
+}
+
+.Register h5 {
+    margin: 0;
+    text-align: end;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.but {
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.Register>p {
+    height: 20px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.login>a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.Register {
+    width: 450px;
+    height: 700px;
+    background: rgb(65, 166, 87) ;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px lightskyblue;
+    color: white;
+}
+
+.Register h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.xd {
+    width: 94%;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button {
+
+    width: 100%;
+    height: 40px;
+    background: a;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+
+.Register p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.Register a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.Register2 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+#subtitulo{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#piepagina{
+    background-color: rgb(75, 193, 100);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 2% 0 2%;
+}
+
+
+
+#crud-prod{
+    padding-top: 0.2%;
+    background-color: rgb(65, 166, 87) ;
+    padding-bottom: 20%;
+    margin: 2%;
+}
+
+#botones-crud{
+    display: flex;
+    justify-content: space-around;
+}
+#botones-crud>button>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.3;
+    
+}
+
+#crud-prom{
+    padding-top: 0.2%;
+    background-color: rgb(65, 166, 87) ;
+    padding-bottom: 20%;
+    margin: 2%;
+}
+
+#crud-prom h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#crud-prod h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ver-compras{
+    padding-top: 0.2%;
+    background-color: rgb(65, 166, 87) ;
+    padding-bottom: 20%;
+    margin: 2%;
+}
+
+#ver-compras h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-footer>button>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.3;
+}
